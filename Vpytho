@@ -1,0 +1,57 @@
+from vpython import *
+import random
+
+
+# Define the bounds of the rectangular boundary and constants
+x_min = 0
+x_max = 3
+y_min = 0
+y_max = 27
+N = 10000   
+x = 0
+y = 0
+actual_value = 20.25
+
+# Define the variables
+estimated_value = 0
+incount = 0
+M = 5
+M_estimated = 0
+j = 0
+i = 0
+
+
+# Create a scene
+gdisplay()
+inside = gdots(color = color.red)
+outside = gdots(color = color.blue)
+
+# Create the curve to visualize x**3
+gdisplay()
+curve(color = color.green, pos = [vector (x, x**3, 0) for x in range(x_min, x_max, 0.01)])
+
+# Throw stones and count how many fall under the curve
+for j in range(1, M+1):
+    i = 0
+    incount = 0
+    estimated_value = 0
+    
+    for i in range(1, N+1):                        #do this max tmes
+        rate(10000)                                   #slow down visualisation          
+        x = random.uniform(x_min, x_max) 
+        y = random.uniform(y_min, y_max) 
+        
+        if y <= x**3: 
+            incount += 1
+            inside.plot(pos = (x, y))
+            #sphere(pos=vector(x, y, 0), radius=0.02, color=color.green) 
+            
+        else: 
+            #sphere(pos=vector(x, y, 0), radius=0.02, color=color.red)
+            outside.plot(pos = (x, y))
+
+# Calculate the area estimation
+area_estimated = (incount / N) * (x_max - x_min) * (y_max - y_min)
+print("Estimated area:", area_estimated)
+ab_error = abs(area_estimated - actual_value)
+print("absolute error", ab_error)
