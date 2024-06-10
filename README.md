@@ -1,7 +1,6 @@
-# Monte-Carlo-Simulation
-#Monte Carlo simulation method to approximate the area under a curve for continuous functions.
+# Monte Carlo simulation method to approximate the area under a curve for continuous functions
 
-# Monte Carlo Simulation
+## Monte Carlo Simulation
 
 This project demonstrates the Monte Carlo simulation method to approximate the area under the curve defined by the function \( f(x) = x^3 \). The simulation involves randomly throwing "stones" within a defined boundary and counting how many fall under the curve to estimate the area.
 
@@ -26,8 +25,6 @@ pip install matplotlib numpy
 ```
 
 
-
-
 1. Usage
 Clone the repository:
 ```bash
@@ -44,14 +41,15 @@ python monte_carlo_simulation.py
 
 
 ```
+##
+
 3. Description of the Python Script:
+   The script monte_carlo_simulation.py performs the following steps:
 
-The script monte_carlo_simulation.py performs the following steps:
-
--Defines the bounds of the rectangular boundary [x_min, x_max]*[y_min, y_max].
--Randomly generates points within the boundary [x, y].
--Checks whether each point lies below the curve y = x**3
--Calculates the estimated area under the curve based on the ratio of points below(Incount) the curve to the total numebr of points(N)
+   - Defines the bounds of the rectangular boundary [x_min, x_max]*[y_min, y_max].
+   - Randomly generates points within the boundary [x, y].
+   - Checks whether each point lies below the curve y = x**3
+   - Calculates the estimated area under the curve based on the ratio of points below(Incount) the curve to the total numebr of points(N)
 
 ## Code
 The code is already included in the 'python' file, you just copy directly and paste it on your codespace.
