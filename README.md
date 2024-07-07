@@ -21,26 +21,30 @@ You can install the required libraries using pip:
 
 ```bash
 pip install matplotlib numpy
-
 ```
 
+##
 
-1. Usage
+## Usage
 Clone the repository:
+
 ```bash
 git clone https://github.com/topollonaketsana/Monte-Carlo-Simulation.git
 ```
 
+Go to the Project directory:
+
 ```bash
 cd Monte-Carlo-Simulation
-
 ```
+
 2. Run the Python script:
 ```bash
 python monte_carlo_simulation.py
 
-
 ```
+
+
 ##
 
 3. Description of the Python Script:
