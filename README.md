@@ -13,7 +13,7 @@ The Monte Carlo method is a statistical technique that uses random sampling to o
 
 Before running the code, ensure you have the following installed:
 
-- Python 3.x
+- `Python 3.x` (You can download python [here](https://www.python.org/downloads/) if you dont have it yet)
 - `matplotlib` library for plotting
 - `numpy` library for numerical operations
 
