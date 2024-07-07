@@ -49,9 +49,9 @@ python monte_carlo_simulation.py
    - Defines the bounds of the rectangular boundary [x_min, x_max]*[y_min, y_max].
    - Randomly generates points within the boundary [x, y].
    - Checks whether each point lies below the curve y = x**3
-   - Calculates the estimated area under the curve based on the ratio of points below(Incount) the curve to the total numebr of points(N)
+   - Calculates the estimated area under the curve based on the ratio of points below (Incount) the curve to the total number of points(N)
 
 ## Code
-The code is already included in the 'python' file, you just copy directly and paste it on your codespace.
+The code is already included in the `python int` file, you can just copy it directly and paste it into your code space/machine for interpretation. Code can be edited for better understanding, eg, on line (8) I included the rate for incount (number of stones thrown inside) this can be edited depending on how you want to interpret the results and how random stones are thrown inside the boundary.
 
 
