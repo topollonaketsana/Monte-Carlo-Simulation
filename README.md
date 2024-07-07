@@ -26,17 +26,13 @@ pip install matplotlib numpy
 ##
 
 ## Usage
-Clone the repository:
+1. Clone the repository and Go to the Project directory:
 
 ```bash
 git clone https://github.com/topollonaketsana/Monte-Carlo-Simulation.git
-```
-
-Go to the Project directory:
-
-```bash
 cd Monte-Carlo-Simulation
 ```
+
 
 2. Run the Python script:
 ```bash
