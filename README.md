@@ -53,5 +53,8 @@ python monte_carlo_simulation.py
 
 ## Code
 The code is already included in the `python int` file, you can just copy it directly and paste it into your code space/machine for interpretation. Code can be edited for better understanding, eg, on line (8) I included the rate for incount (number of stones thrown inside) this can be edited depending on how you want to interpret the results and how random stones are thrown inside the boundary.
+Note that N (total number of stones thrown) can be adjusted depending on how many stones you want to throw.  
 
+## Acknowledgments
+- [Python Software Foundation](https://www.python.org/psf/)
 
