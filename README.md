@@ -1,13 +1,13 @@
-# Monte Carlo simulation method to approximate the area under a curve for continuous functions
+# Monte Carlo simulation method to approximate areas for continuous functions
 
 ## Monte Carlo Simulation
 
-This project demonstrates the Monte Carlo simulation method to approximate the area under the curve defined by the function \( f(x) = x**3 \). The simulation involves randomly throwing "stones" within a defined boundary and counting how many fall under the curve to estimate the area.
+This project demonstrates the Monte Carlo simulation method to approximate the area under the curve defined by the function \( f(x) = x**3 \) as well the estimation of value Pi using random walks. The computer simulation involves randomly throwing "stones" within a defined boundary and counting how many fall under the curve to estimate the area.
 
 
 ## Project Description
 
-The Monte Carlo method is a statistical technique that uses random sampling to obtain numerical results. In this project, we use the Monte Carlo method to approximate the area under the curve of the function \( f(x) = x**3 \) between \( x = 0 \) and \( x = 3 \).
+The Monte Carlo method is a statistical technique that uses random sampling to obtain numerical results. In this project, we use the Monte Carlo method to approximate the area under the curve of the function \( f(x) = x**3 \) between \[ x = 0 \ and \ x = 3 \].
 
 ## Whats needed
 
