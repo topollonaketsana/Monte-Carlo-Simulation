@@ -2,12 +2,13 @@
 
 ## Monte Carlo Simulation
 
-This project demonstrates the Monte Carlo simulation method to approximate the area under the curve defined by the function \( f(x) = x**3 \) as well the estimation of value Pi using random walks. The computer simulation involves randomly throwing "stones" within a defined boundary and counting how many fall under the curve to estimate the area.
+This project demonstrates the Monte Carlo simulation method to approximate the area under the curve for any continuous functions as well the estimation of value Pi using random walks. The computer simulation involves randomly throwing "stones" within a defined boundary and counting how many fall under the curve to estimate the area.
 
 
-## Project Description
+## Simulation 1: Area under a curve defined by f(x)
+## Simulation Description
 
-The Monte Carlo method is a statistical technique that uses random sampling to obtain numerical results. In this project, we use the Monte Carlo method to approximate the area under the curve of the function \( f(x) = x**3 \) between (x = 0  and  x = 3).
+The Monte Carlo method is a statistical technique that uses random sampling to obtain numerical results. In this simulation 1, we use the Monte Carlo method to approximate the area under the curve of the function \( f(x) = x**3 \) between (x = 0  and  x = 3).
 
 ## Whats needed
 
@@ -52,8 +53,22 @@ python monte_carlo_simulation.py
    - Calculates the estimated area under the curve based on the ratio of points below (Incount) the curve to the total number of points(N)
 
 ## Code
-The code is already included in the `python int` file, you can just copy it directly and paste it into your code space/machine for interpretation. Code can be edited for better understanding, eg, on line (8) I included the rate for incount (number of stones thrown inside) this can be edited depending on how you want to interpret the results and how random stones are thrown inside the boundary.
+The code is already included in the `python src` file, you can just copy it directly and paste it into your machine for interpretation. Code can be edited for better understanding, eg, on line (8) I included the rate for incount (number of stones thrown inside) this can be edited depending on how you want to interpret the results and how random stones are thrown inside the boundary.
 Note that N (total number of stones thrown) can be adjusted depending on how many stones you want to throw.  
+
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________
+
+## Simulation 2: Estimation of Pi value
+## Simulation described
+//////////////////////
+
+
+
+
+
+
+
 
 ## Acknowledgments
 - [Python Software Foundation](https://www.python.org/psf/)
