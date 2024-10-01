@@ -7,7 +7,7 @@ This project demonstrates the Monte Carlo simulation method to approximate the a
 
 ## Project Description
 
-The Monte Carlo method is a statistical technique that uses random sampling to obtain numerical results. In this project, we use the Monte Carlo method to approximate the area under the curve of the function \( f(x) = x^3 \) between \( x = 0 \) and \( x = 3 \).
+The Monte Carlo method is a statistical technique that uses random sampling to obtain numerical results. In this project, we use the Monte Carlo method to approximate the area under the curve of the function \( f(x) = x**3 \) between \( x = 0 \) and \( x = 3 \).
 
 ## Whats needed
 
