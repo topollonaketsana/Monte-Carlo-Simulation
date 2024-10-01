@@ -2,7 +2,7 @@
 
 ## Monte Carlo Simulation
 
-This project demonstrates the Monte Carlo simulation method to approximate the area under the curve defined by the function \( f(x) = x^3 \). The simulation involves randomly throwing "stones" within a defined boundary and counting how many fall under the curve to estimate the area.
+This project demonstrates the Monte Carlo simulation method to approximate the area under the curve defined by the function \( f(x) = x**3 \). The simulation involves randomly throwing "stones" within a defined boundary and counting how many fall under the curve to estimate the area.
 
 
 ## Project Description
