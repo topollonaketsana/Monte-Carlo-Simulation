@@ -1,19 +1,15 @@
-
-
-
 ## This is Python code to visualize and calculate the area under a curve which is f(x) = x ** 3.
-
-
 import matplotlib.pyplot as plt
 import random
 
-# Define the bounds of the rectangular boundary and constants
+# Define the bounds and constants
 x_min = 0
 x_max = 3
 y_min = 0
 y_max = 27
-N = 10000       #adjust this value to increase or decrease the number of stones thrown
-actual_value = 20.25
+N = 10000       # increase or decrease the number of stones thrown
+
+actual_value = 20.25  # this is just for an error, we dont have to always know the exact value
 
 # Define the variables
 estimated_value = 0
